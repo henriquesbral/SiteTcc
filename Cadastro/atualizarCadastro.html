@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="/Bootstrap/css/estilo.css">
+    <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar bg-light" aria-label="Light offcanvas navbar">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Atualizar Cadastro</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/TelaPrincipal/telaprincipal.html">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/PainelAlertas/painelalertas.html">Painel de alertas</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+    </nav>
+    <div class="container">
+        <figure class="figure-center p-2">
+            <img src="/Cadastro/Img/36834000_1840282579423402_2694266476935774208_n.jpg" class="rounded mx-auto d-block" alt="icon_user" width="400" height="400" >
+        </figure>
+        <div class="col p-3">
+          <form class="row g-4">
+            <div class="container  text-center">
+              <div class="row gx-5">
+                <div class="col">
+                  <div class="mb-12 mt-2">
+                    <label for="formFile" class="form-label mt-1">Escolha a sua imagem</label>
+                    <input class="form-control" type="file" id="formFile">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="inputText" class="form-label">Nome</label>
+              <input type="text" class="form-control" id="inputText">
+            </div>
+            <div class="col-md-6">
+              <label for="inputText" class="form-label">Sobrenome</label>
+              <input type="text" class="form-control" id="inputText">
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="exemple@email.com">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Data Nascimento</label>
+              <input type="date" class="form-control" id="input" placeholder="00/00/0000">,
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Senha</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Repetir Senha</label>
+              <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-md-6">
+              <label for="inputAddress" class="form-label">Endereço</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="Rua ABCD">
+            </div>
+            <div class="col-md-6">
+              <label for="inputAddress2" class="form-label">Complemento</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, viela, ou travessa">
+            </div>
+            <div class="col-md-2">
+              <label for="inputNumber" class="form-label" >Número</label>
+              <input type="number" class="form-control" id="inputNumber" placeholder="123">
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">CEP</label>
+              <input type="text" class="form-control" id="inputZip">
+            </div>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Atualizar</button>
+            </div>
+        </div>
+      </div>
+  <script src="/Bootstrap/js/jquery.min.js"></script>
+  <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Preload/preloader.js"></script>
+</body>
+</html>

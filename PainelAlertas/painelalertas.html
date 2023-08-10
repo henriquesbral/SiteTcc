@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Painel de alertas</title>
+  <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/Preload/carregar.css">
+  <link rel="stylesheet" href="/PainelAlertas/style.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar bg-light" aria-label=" offcanvas navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Painel de alertas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/TelaPrincipal/telaprincipal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/PainelAlertas/painelalertas.html">Painel de alertas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="/Cadastro/Img/36834000_1840282579423402_2694266476935774208_n.jpg" alt="icon_user" width="35" height="35" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 34.4px, 0px);" data-popper-placement="bottom-end">
+            <li><a class="dropdown-item" href="/Cadastro/atualizarCadastro.html">Atualizar cadastro</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/TelaLogin/index.html">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- início do preloader -->
+    <div id="preloader">
+      <div class="inner">
+        <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+        <img src="/Preload/Storm.gif">
+      </div>
+    </div>
+    <!-- fim do preloader -->
+
+    <div class="b-example-divider"></div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <h1>Tabela de alertas</h1>
+      </div>
+      <div class="row">
+        <h1>Tabela de alertas</h1>
+      </div>
+      <div class="row">
+        <h1>Tabela de alertas</h1>
+      </div>
+    </div>
+  </main>
+  <script src="/Bootstrap/js/jquery.min.js"></script>
+  <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/Preload/preloader.js"></script>
+</body>
+</html>
