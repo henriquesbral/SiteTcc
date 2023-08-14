@@ -6,4 +6,4 @@ git add <file que foi atualizado>
 
 git branch -M main //selecionando a branch 
 
-git push -u //subir de fato a atualização
+git push -u //subir de fato a atualização - usar esse primeiro
