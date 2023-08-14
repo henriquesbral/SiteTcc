@@ -7,3 +7,4 @@ git add <file que foi atualizado>
 git branch -M main //selecionando a branch 
 
 git push -u //subir de fato a atualização - usar esse primeiro
+https://gist.github.com/leocomelli/2545add34e4fec21ec16
