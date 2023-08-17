@@ -10,8 +10,18 @@
   <link rel="stylesheet" href="/PainelAlertas/style.css">
 </head>
 <body>
-  <header>
-    <nav class="navbar bg-light" aria-label=" offcanvas navbar">
+
+  <!-- início do preloader -->
+  <div id="preloader">
+    <div class="inner">
+      <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
+      <img src="/Preload/Storm.gif">
+    </div>
+  </div>
+  <!-- fim do preloader -->
+
+  <header class="cabecalho">
+    <nav class="navbar" aria-label=" offcanvas navbar">
       <div class="container-fluid">
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
           <span class="navbar-toggler-icon"></span>
@@ -47,34 +57,12 @@
   </header>
 
   <main>
-    <!-- início do preloader -->
-    <div id="preloader">
-      <div class="inner">
-        <!-- HTML DA ANIMAÇÃO MUITO LOUCA DO SEU PRELOADER! -->
-        <img src="/Preload/Storm.gif">
-      </div>
+    <div class="filtro">
+      <h1>Painel Alertas</h1>
     </div>
-    <!-- fim do preloader -->
-
-    <div class="b-example-divider"></div>
-
-    <div class="container mt-5">
-      <div class="row">
-        <h1>Tabela de alertas</h1>
-      </div>
-      <div class="row">
-        <h1>Tabela de alertas</h1>
-      </div>
-      <div class="row">
-        <h1>Tabela de alertas</h1>
-      </div>
-      <div class="row">
-        <h1>Tabela de alertas</h1>
-      </div>
-      <div class="row">
-        <h1>Tabela de alertas</h1>
-      </div>
-    </div>
+    <section class="corpo">
+      <h1>Tabela Alertas</h1>
+    </section>
   </main>
   <script src="/Bootstrap/js/jquery.min.js"></script>
   <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>

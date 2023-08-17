@@ -5,9 +5,33 @@
 }
 
 :root { /* Declarando as variáveis de cores*/
-    --cor-primaria: #071952;
-    --cor-secundaria: #0B666A;
-    --cor-terciaria: #35A29F;
-    --cor-hover: #97FEED;
+    --cor-primaria: #526D82;
+    --cor-secundaria: #27374D;
+    --cor-terciaria: #DDE6ED;
+}
 
+body {
+    background-color: var(--cor-secundaria);
+}
+
+.cabecalho {
+    background-color: var(--cor-primaria);
+}
+
+.filtro {
+    display: flex;
+    /* width: 932px;
+    height: 80px; */
+    background-color: var(--cor-terciaria);
+    margin: 30px 34px 0 35px; /* topo | direita | inferior | esquerda */
+    border-radius: 2px;
+}
+
+.corpo {
+    display: flex;
+    background-color: var(--cor-terciaria);
+    /* width: 932px;
+    height: 350px; */
+    margin: 29px 34px 0 35px; /* topo | direita | inferior | esquerda */
+    border-radius: 2px;
 }

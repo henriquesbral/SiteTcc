@@ -6,123 +6,77 @@
 }
 
 :root { /* Declarando as variáveis de cores*/
-    --cor-primaria: #071952;
-    --cor-secundaria: #0B666A;
-    --cor-terciaria: #35A29F;
-    --cor-hover: #97FEED;
+    /*Cores do site*/
+    --cor-primaria: #1A2B41;
+    --cor-secundaria: #f6f6f6;
+    --cor-terciaria: #000;
 
+    /*Fontes do site*/
+
+    --font-primaria: 'Poppins', sans-serif;
+    --font-secudaria: 'Montserrat', sans-serif;
 }
 
 body{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    background: #1A2B41;
-}
-
-.container{
+    background: var(--cor-primaria);
     display: flex;
     flex-direction: row;
+    align-content: center;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    box-sizing: border-box;
 }
 
-.card-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 50rem;
-    height: 35rem;
-}
-
-.img{
+.card {
+    margin-top: 60px;
+    width: 500px;
+    height: 500px;
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+}
+
+.img__text {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
-.text{
+.img {
+    width: 90px;
+    height: 90px;
+}
+
+.text {
+    font-family: var(--font-primaria);
+    font-weight: 600;
+}
+
+.login {
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 1rem;
-    font-size: large;
-    font-weight: bold;
+    align-items: center;
 }
 
-form{
+.login__form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
+    gap: 8px;
 }
 
-.form-floating{
-    width: 30rem;
-    margin: 5px;
+.login__form__entrar {
+    text-decoration: none;
 }
 
-.modal-content{
-    width: 60vw;
-    height: 50vh;
-}
-
-.modal-body{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 30rem;
-    height: 15rem;
-}
-
-.reset-senha{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    width: 25rem;
-    height: 25rem;
-}
-
-.form-group{
-    width: 20rem;
-    margin: 5px;
-}
-
-.button-google{
-    margin-top: 4px;
+.login__links {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: baseline;
-}
-
-.btn{
-    margin-top: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.cadastro{
-    margin-top: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: baseline;
-}
-
-.resetsenha{
-    margin-top: 4px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: baseline;
+    padding: 5px;
 }
 
