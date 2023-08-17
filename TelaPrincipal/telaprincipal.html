@@ -7,6 +7,7 @@
     <title>Home</title>
     <link rel="stylesheet" href="/Bootstrap/css/style.css">
     <link rel="stylesheet" href="/Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
   <!-- início do preloader -->
@@ -17,80 +18,82 @@
     </div>
   </div>
   <!-- fim do preloader --> 
-    <main>
-        <nav class="navbar bg-light" aria-label=" offcanvas navbar">
-            <div class="container-fluid">
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
-                <div class="offcanvas-header">
-                  <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Bem-Vindo !</h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                </div>
-                <div class="offcanvas-body">
-                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="/TelaPrincipal/telaprincipal.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="/PainelAlertas/painelalertas.html">Painel de alertas</a>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-              <div class="dropdown">
-                <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  <img src="/Cadastro/Img/36834000_1840282579423402_2694266476935774208_n.jpg" alt="icon_user" width="35" height="35" class="rounded-circle">
-                </a>
-                <ul class="dropdown-menu text-small" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 34.4px, 0px);" data-popper-placement="bottom-end">
-                  <li><a class="dropdown-item" href="/Cadastro/atualizarCadastro.html">Atualizar cadastro</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="/TelaLogin/index.html">Sair</a></li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <div class="row">
-            <div class="col-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Alerta xyz</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="/PainelAlertas/painelalertas.html" class="btn btn-primary">Ver Alerta</a>
-                </div>
-              </div>
-            </div>
-            <div class="col-6">
-              <div class="card">
-                <div class="card-body">
-                  <h5 class="card-title">Nível do rio normal</h5>
-                  <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                  <a href="/PainelAlertas/painelalertas.html" class="btn btn-primary">Ver Alerta</a>
-                </div>
-              </div>
+  
+  <header class="cabecalho">
+    <nav class="navbar bg-light" aria-label=" offcanvas navbar">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbarLight" aria-controls="offcanvasNavbarLight">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbarLight" aria-labelledby="offcanvasNavbarLightLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLightLabel">Bem-Vindo !</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/TelaPrincipal/telaprincipal.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/PainelAlertas/painelalertas.html">Painel de alertas</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="/Cadastro/Img/36834000_1840282579423402_2694266476935774208_n.jpg" alt="icon_user" width="35" height="35" class="rounded-circle">
+          </a>
+          <ul class="dropdown-menu text-small" style="position: absolute; inset: 0px 0px auto auto; margin: 0px; transform: translate3d(0px, 34.4px, 0px);" data-popper-placement="bottom-end">
+            <li><a class="dropdown-item" href="/Cadastro/atualizarCadastro.html">Atualizar cadastro</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="/TelaLogin/index.html">Sair</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    
+    <main class="">
+      <div class="row">
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Alerta xyz</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="/PainelAlertas/painelalertas.html" class="btn btn-primary">Ver Alerta</a>
             </div>
           </div>
-          <div class="col-12">
-            <div class="card shadow-lg">
-              <div class="card-body">
-                <iframe src="https://www.google.com/maps/embed?pb=!4v1690940891829!6m8!1m7!1sOiveAOL2zWhvqBAfnPul-g!2m2!1d-23.63952401360213!2d-46.74443689714118!3f280.96220333687495!4f-6.577212679317753!5f2.920581954847005" 
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
+        </div>
+        <div class="col-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Nível do rio normal</h5>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+              <a href="/PainelAlertas/painelalertas.html" class="btn btn-primary">Ver Alerta</a>
             </div>
           </div>
-        <div class="container">
-          <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-            <div class="col-md-4 d-flex align-items-center">
-              <span class="mb-3 mb-md-0 text-muted">© 2022 TCC - Universidade Paulista, Grupo 14</span>
+        </div>
+      </div>
+      <div class="col-12">
+        <div class="card shadow-lg">
+          <div class="card-body">
+            <iframe src="https://www.google.com/maps/embed?pb=!4v1690940891829!6m8!1m7!1sOiveAOL2zWhvqBAfnPul-g!2m2!1d-23.63952401360213!2d-46.74443689714118!3f280.96220333687495!4f-6.577212679317753!5f2.920581954847005" 
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-          </footer>
+          </div>
         </div>
       </main>
-      <script src="/Bootstrap/js/jquery.min.js"></script>
-      <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
-      <script src="/Preload/preloader.js"></script>
-      <script type="text/javascript"> function setWidgetData_521018427(data){ if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_'+params.widget_type+'_'+params.widget_id); if(objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_521018427 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=585;type=22;id=521018427;scode=124;city_id=18266;wlangid=8;mode=0;details=0;background=ffffff;border_color=ffffff;color=686868;add_background=ffffff;add_color=333333;head_color=ffffff;border=0;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script>
-      <script type="text/javascript"> var css_file=document.createElement("link"); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href","https://s.bookcdn.com//css/cl/bw-cl-c22.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script> 
+      
+      <footer class="rodape">
+        <p>© 2022 TCC - Universidade Paulista, Grupo 14</p>
+      </footer>
+      
+    <script src="/Bootstrap/js/jquery.min.js"></script>
+    <script src="/Bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/Preload/preloader.js"></script>
+    <script type="text/javascript"> function setWidgetData_521018427(data){ if(typeof(data) != 'undefined' && data.results.length > 0) { for(var i = 0; i < data.results.length; ++i) { var objMainBlock = ''; var params = data.results[i]; objMainBlock = document.getElementById('tw_'+params.widget_type+'_'+params.widget_id); if(objMainBlock !== null) objMainBlock.innerHTML = params.html_code; } } } var clock_timer_521018427 = -1; widgetSrc = "https://widgets.booked.net/time/info?ver=2;domid=585;type=22;id=521018427;scode=124;city_id=18266;wlangid=8;mode=0;details=0;background=ffffff;border_color=ffffff;color=686868;add_background=ffffff;add_color=333333;head_color=ffffff;border=0;transparent=0"; var widgetUrl = location.href; widgetSrc += '&ref=' + widgetUrl; var wstrackId = ""; if (wstrackId) { widgetSrc += ';wstrackId=' + wstrackId + ';' } var timeBookedScript = document.createElement("script"); timeBookedScript.setAttribute("type", "text/javascript"); timeBookedScript.src = widgetSrc; document.body.appendChild(timeBookedScript); </script>
+    <script type="text/javascript"> var css_file=document.createElement("link"); css_file.setAttribute("rel","stylesheet"); css_file.setAttribute("type","text/css"); css_file.setAttribute("href","https://s.bookcdn.com//css/cl/bw-cl-c22.css?v=0.0.1"); document.getElementsByTagName("head")[0].appendChild(css_file); </script> 
 </body>
 </html>

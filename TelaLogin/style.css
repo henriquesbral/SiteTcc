@@ -5,6 +5,14 @@
     padding: 0;
 }
 
+:root { /* Declarando as variáveis de cores*/
+    --cor-primaria: #071952;
+    --cor-secundaria: #0B666A;
+    --cor-terciaria: #35A29F;
+    --cor-hover: #97FEED;
+
+}
+
 body{
     margin: 0;
     padding: 0;
