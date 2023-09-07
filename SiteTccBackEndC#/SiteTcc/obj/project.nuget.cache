@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5/np0jW6IfKRIIMOo955KRHVbeq8gOY9CcODWQwbKpgkno1cp8g9ZiuX6lQQHtY8ZfaJYSbMwH2YAJGNAaSPAA==",
+  "dgSpecHash": "GAfhV57kWKiNrOkmYf2Mj7jWuT3/iCEW1yVy8MeMrLJ33r2peRffikRzSWJwsW+AYeybzeOVOCGEKW1sBnYdog==",
   "success": true,
-  "projectFilePath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\SiteTcc.csproj",
+  "projectFilePath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\SiteTcc.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\henri\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\henri\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.21\\microsoft.aspnetcore.cryptography.internal.6.0.21.nupkg.sha512",

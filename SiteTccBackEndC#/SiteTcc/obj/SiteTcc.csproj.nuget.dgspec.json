@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\SiteTcc.csproj": {}
+    "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\SiteTcc.csproj": {}
   },
   "projects": {
-    "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\SiteTcc.csproj": {
+    "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\SiteTcc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\SiteTcc.csproj",
+        "projectUniqueName": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\SiteTcc.csproj",
         "projectName": "SiteTcc",
-        "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\SiteTcc.csproj",
+        "projectPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\SiteTcc.csproj",
         "packagesPath": "C:\\Users\\henri\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTcc\\SiteTcc\\obj\\",
+        "outputPath": "C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc\\SiteTccBackEndC#\\SiteTcc\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
