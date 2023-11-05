@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\SiteTccBackEndC#",
+    "\\SiteTccBackEndC#\\SiteTcc",
+    "\\SiteTccBackEndC#\\SiteTcc\\Controllers"
   ],
-  "SelectedNode": "\\C:\\Users\\henri\\OneDrive\\Área de Trabalho\\SiteTcc",
+  "SelectedNode": "\\SiteTccBackEndC#\\SiteTcc\\Controllers\\HomeController.cs",
   "PreviewInSolutionExplorer": false
 }
