@@ -11,12 +11,12 @@
 
 }
 
-.body{
-
+body {
+    background-color: var(--cor-secundaria);
 }
 
 .cabecalho {
-    
+    background-color: var(--cor-primaria);
 }
 
 .rodape {
