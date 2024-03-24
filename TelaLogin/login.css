@@ -5,78 +5,41 @@
     padding: 0;
 }
 
-:root { /* Declarando as variáveis de cores*/
-    /*Cores do site*/
-    --cor-primaria: #1A2B41;
-    --cor-secundaria: #f6f6f6;
-    --cor-terciaria: #000;
-
-    /*Fontes do site*/
-
-    --font-primaria: 'Poppins', sans-serif;
-    --font-secudaria: 'Montserrat', sans-serif;
-}
-
 body{
-    margin: 0;
-    padding: 0;
-    background: var(--cor-primaria);
-    display: flex;
-    flex-direction: row;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-}
-
-.card {
-    margin-top: 60px;
-    width: 500px;
-    height: 500px;
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.img__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.img {
-    width: 90px;
-    height: 90px;
-}
-
-.text {
-    font-family: var(--font-primaria);
-    font-weight: 600;
-}
-
-.login {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.login__form {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    box-sizing: border-box;
+    background-color: #4682B4;
 }
 
-.login__form__entrar {
-    text-decoration: none;
-}
-
-.login__links {
+.container{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 5px;
+    margin-top: 10rem;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.formulario_form{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.modal-body{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-reset-senha{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
