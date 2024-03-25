@@ -4,49 +4,10 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-:root { /* Declarando as variáveis de cores*/
-    /*Cores do site*/
-    --cor-primaria: #1A2B41;
-    --cor-secundaria: #27374D;
-    --cor-terciaria: #DDE6ED;
-
-    /*Fontes do site*/
-
-    --font-primaria: 'Poppins', sans-serif;
-    --font-secudaria: 'Montserrat', sans-serif;
+    font-family: 'Poppins', 'montserrat';
 }
 
 body{
-    margin: 0;
-    padding: 0;
-    background-color: var(--cor-primaria);
+    box-sizing: border-box;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.card{
-    margin-top: 50px;
-}
-
-.card-header {
-    font-family: var(--font-primaria);
-    font-weight: 600;
-}
-
-.card-body {
-    padding: 20px;
-    border-end-end-radius: 5px;
-    border-end-start-radius: 5px;
-    font-family: var(--font-secudaria);
-    font-weight: 400;
-}
-
-.form-label {
-    font-weight: 400;
-}
